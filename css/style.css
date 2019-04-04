@@ -627,7 +627,7 @@ li.dropdown i.fa.dropdown-toggle {
 }
 
 .breadcrumbs {
-    background: #f4f5f8;
+    background: #DFE0E4;
     padding: 25px 0;
 }
 
@@ -2084,20 +2084,20 @@ ul.download-list li span {
 
 .contact-box {
     padding: 30px 40px;
-    background: #ffda44;
+    background: #3077B2;
 }
 
 .pre-footer > div:nth-child(2n) .contact-box {
-    background: #ffd427;
+    background: #1A5D95;
 }
 
 .pre-footer > div:nth-child(3n) .contact-box {
-    background: #ffd013;
+    background: #1A69AC;
 }
 
 .contact-box i.fa {
     font-size: 20px;
-    color: #000;
+    color: #d7d7d7;
     float: left;
     width: 20px;
     margin-right: 15px;
@@ -2110,7 +2110,7 @@ ul.download-list li span {
 
 h4.pre-footer-title {
     font-size: 20px;
-    color: #000;
+    color: #d7d7d7;
     font-weight: bold;
     margin: 0 0 15px;
 }
@@ -2118,7 +2118,7 @@ h4.pre-footer-title {
 .contact-details p {
     font-size: 16px;
     font-family: "Roboto";
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     line-height: 1.5;
     margin-bottom: 0;
 }
@@ -2233,7 +2233,7 @@ h2.widget-title {
 
 .copyright-bar p {
     font-size: 14px;
-    color: rgba( 255, 255, 255, 0.33);
+    color: rgba( 255, 255, 255, 0.6);
     line-height: 1.857;
     margin-bottom: 0;
 }
@@ -3448,7 +3448,69 @@ section.services-highlights {
     }
 }
 
+/*Egovern pages style here*/
+.subpoint{
+	list-style: none;
+}
+.subpoint li{
+	  font-size: 15px;
+    font-family: "Roboto";
+    margin-right: 20px;
+    position: relative;
+    color: #666;
+}
+.subpoints li{
+	font-size: 15px;
+    font-family: "Roboto";
+    margin-right: 20px;
+    position: relative;
+    margin-left: 25px;
+    color: #666;
+}
+.subpoint li::before{
+	position: absolute;
+	left: -10px;
+	top : 5px;
+	content: '\f111';
+	font-family: FontAwesome;
+	color:#3F79D1;
+	margin-left:-10px;
+	font-size:9px;
+}
+.subpoints li::before{
+	position: absolute;
+	left: -10px;
+	top : 5px;
+	content: '\f111';
+	font-family: FontAwesome;
+	color:#3F79D1;
+	margin-left:-10px;
+	font-size:9px;
+}
 
+/*Egovern pages style here*/
+/*Easysms pages style here*/
+ .easysms .primary-btn {
+    border-radius: 2px;
+    background: #3F79D1;
+    font-size: 14px;
+    font-family: "Roboto Condensed";
+    color: #d7d7d7;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height:40px;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.easysms .primary-btn i {
+    padding-left: 10px;
+}
+
+.easysms .primary-btn:hover {
+    background: #3F79D1;
+}
+/*Easysms pages style here*/
 /*Image Hover Effects*/
 
 .hover-effect img,
